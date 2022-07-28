@@ -29,27 +29,27 @@ python churn_library.py
 
 Below theres a representation of the repos structure.
 
-├── data<br />
-│   └── bank_data.csv<br />
-├── images<br />
-│   ├── eda<br />
-│   │   ├── churn_histogram.png<br />
-│   │   ├── corr_matrix.png<br />
-│   │   ├── cust_age_histogram.png<br />
-│   │   ├── marital_status_count.png<br />
-│   │   └── total_trans_dist_plot.png<br />
-│   └── results<br />
-│       ├── feature_importance.png<br />
-│       ├── lr_results.png<br />
-│       ├── rf_results.png<br />
-│       └── roc_auc_curve.png<br />
-├── logs<br />
-│   └── churn_library.log<br />
-├── models<br />
-│   ├── logistic_model.pkl<br />
-│   └── rfc_model.pkl<br />
-├── churn_library.py<br />
-├── churn_notebook.ipynb<br />
-├── churn_script_logging_and_tests.py<br />
-├── README.md<br />
-└── requirements.txt<br />
+data<br />
+    bank_data.csv<br />
+images<br />
+    eda<br />
+        churn_histogram.png<br />
+        corr_matrix.png<br />
+        cust_age_histogram.png<br />
+        marital_status_count.png<br />
+        total_trans_dist_plot.png<br />
+    results<br />
+        feature_importance.png<br />
+        lr_results.png<br />
+        rf_results.png<br />
+        roc_auc_curve.png<br />
+logs<br />
+    churn_library.log<br />
+models<br />
+    logistic_model.pkl<br />
+    rfc_model.pkl<br />
+churn_library.py<br />
+churn_notebook.ipynb<br />
+churn_script_logging_and_tests.py<br />
+README.md<br />
+requirements.txt<br />
