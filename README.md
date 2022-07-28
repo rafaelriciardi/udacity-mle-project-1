@@ -30,24 +30,24 @@ python churn_library.py
 Below theres a representation of the repos structure.
 
 data<br />
-    bank_data.csv<br />
+(&nbsp;)(&nbsp;)(&nbsp;)(&nbsp;)bank_data.csv<br />
 images<br />
-    eda<br />
-        churn_histogram.png<br />
-        corr_matrix.png<br />
-        cust_age_histogram.png<br />
-        marital_status_count.png<br />
-        total_trans_dist_plot.png<br />
-    results<br />
-        feature_importance.png<br />
-        lr_results.png<br />
-        rf_results.png<br />
-        roc_auc_curve.png<br />
+(&nbsp;)(&nbsp;)(&nbsp;)(&nbsp;)eda<br />
+(&nbsp;)(&nbsp;)(&nbsp;)(&nbsp;)(&nbsp;)(&nbsp;)(&nbsp;)(&nbsp;)churn_histogram.png<br />
+(&nbsp;)(&nbsp;)(&nbsp;)(&nbsp;)(&nbsp;)(&nbsp;)(&nbsp;)(&nbsp;)corr_matrix.png<br />
+(&nbsp;)(&nbsp;)(&nbsp;)(&nbsp;)(&nbsp;)(&nbsp;)(&nbsp;)(&nbsp;)cust_age_histogram.png<br />
+(&nbsp;)(&nbsp;)(&nbsp;)(&nbsp;)(&nbsp;)(&nbsp;)(&nbsp;)(&nbsp;)marital_status_count.png<br />
+(&nbsp;)(&nbsp;)(&nbsp;)(&nbsp;)(&nbsp;)(&nbsp;)(&nbsp;)(&nbsp;)total_trans_dist_plot.png<br />
+(&nbsp;)(&nbsp;)(&nbsp;)(&nbsp;)results<br />
+(&nbsp;)(&nbsp;)(&nbsp;)(&nbsp;)(&nbsp;)(&nbsp;)(&nbsp;)(&nbsp;)feature_importance.png<br />
+(&nbsp;)(&nbsp;)(&nbsp;)(&nbsp;)(&nbsp;)(&nbsp;)(&nbsp;)(&nbsp;)lr_results.png<br />
+(&nbsp;)(&nbsp;)(&nbsp;)(&nbsp;)(&nbsp;)(&nbsp;)(&nbsp;)(&nbsp;)rf_results.png<br />
+(&nbsp;)(&nbsp;)(&nbsp;)(&nbsp;)(&nbsp;)(&nbsp;)(&nbsp;)(&nbsp;)roc_auc_curve.png<br />
 logs<br />
-    churn_library.log<br />
+(&nbsp;)(&nbsp;)(&nbsp;)(&nbsp;)churn_library.log<br />
 models<br />
-    logistic_model.pkl<br />
-    rfc_model.pkl<br />
+(&nbsp;)(&nbsp;)(&nbsp;)(&nbsp;)logistic_model.pkl<br />
+(&nbsp;)(&nbsp;)(&nbsp;)(&nbsp;)rfc_model.pkl<br />
 churn_library.py<br />
 churn_notebook.ipynb<br />
 churn_script_logging_and_tests.py<br />
