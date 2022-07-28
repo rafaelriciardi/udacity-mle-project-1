@@ -61,17 +61,26 @@ def perform_eda(original_df, verbose=False):
     plt.figure(figsize=(20, 10))
     churn_hist_plot = original_df['Churn'].hist()
     plt.savefig('images/eda/churn_histogram.png')
-
+    plt.close()
+    
+    plt.figure(figsize=(20, 10))
     cust_age_hist_plot = original_df['Customer_Age'].hist()
     plt.savefig('images/eda/cust_age_histogram.png')
-
+    plt.close()
+    
+    plt.figure(figsize=(20, 10))
     marital_status_count_plot = original_df.Marital_Status.value_counts(
         'normalize').plot(kind='bar')
     plt.savefig('images/eda/marital_status_count.png')
+    plt.close()
 
+    plt.figure(figsize=(20, 10))
     total_trans_dist_plot = sns.distplot(original_df['Total_Trans_Ct'])
-    plt.savefig('images/eda/total_trans_dist_plot.png')
-
+    fig = total_trans_dist_plot.get_figure()
+    fig.savefig('images/eda/total_trans_dist_plot.png')
+    plt.close()
+    
+    plt.figure(figsize=(20, 10))
     corr_matrix = sns.heatmap(
         original_df.corr(),
         annot=False,
