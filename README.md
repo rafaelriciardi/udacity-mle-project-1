@@ -29,27 +29,27 @@ python churn_library.py
 
 Below theres a representation of the repos structure.
 
-├── data
-│   └── bank_data.csv
-├── images
-│   ├── eda
-│   │   ├── churn_histogram.png
-│   │   ├── corr_matrix.png
-│   │   ├── cust_age_histogram.png
-│   │   ├── marital_status_count.png
-│   │   └── total_trans_dist_plot.png
-│   └── results
-│       ├── feature_importance.png
-│       ├── lr_results.png
-│       ├── rf_results.png
-│       └── roc_auc_curve.png
-├── logs
-│   └── churn_library.log
-├── models
-│   ├── logistic_model.pkl
-│   └── rfc_model.pkl
-├── churn_library.py
-├── churn_notebook.ipynb
-├── churn_script_logging_and_tests.py
-├── README.md
-└── requirements.txt
+data
+    bank_data.csv
+images
+    eda
+        churn_histogram.png
+        corr_matrix.png
+        cust_age_histogram.png
+        marital_status_count.png
+        otal_trans_dist_plot.png
+    results
+        feature_importance.png
+        lr_results.png
+        rf_results.png
+        roc_auc_curve.png
+logs
+    churn_library.log
+models
+    logistic_model.pkl
+    rfc_model.pkl
+churn_library.py
+churn_notebook.ipynb
+churn_script_logging_and_tests.py
+README.md
+requirements.txt
